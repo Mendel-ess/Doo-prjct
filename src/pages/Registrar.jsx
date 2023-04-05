@@ -2,7 +2,20 @@ export function Registrar() {
 
     return( 
         <div>
-            <h1>LLEGO A LA PAGINA DE REGISTRAR</h1>
+            <form>
+                <div>
+                    <label>Usuario</label>
+                    <input type="text" name="usuario" />
+                </div>
+                <div>
+                    <label>email</label>
+                    <input type="text" name="email" />
+                </div>
+                <div>
+                    <label>Contraseña</label>
+                    <input type="password" name="contraseña" />
+                </div>
+            </form>
         </div>
     )
 }
