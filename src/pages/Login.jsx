@@ -1,6 +1,5 @@
-export function Registrar() {
-
-    return( 
+const Login = () => {
+    return (
         <div>
             <form>
                 <div>
@@ -17,5 +16,7 @@ export function Registrar() {
                 </div>
             </form>
         </div>
-    )
+    );
 }
+
+export default Login;

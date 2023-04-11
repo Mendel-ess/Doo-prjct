@@ -1,7 +1,6 @@
-import Navbar from './Components/Navbar'
-import { Routes, Route} from 'react-router-dom'
-import { Registrar } from './pages/Registrar'
-import { Homepage } from './pages/Homepage'
+import Navbar from './Components/Navbar';
+import { Routes, Route} from 'react-router-dom';
+import Homepage from './pages/Homepage';
 
 function App() {
 
@@ -9,11 +8,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Homepage />}/>
-        <Route path='/login' element={<Registrar/>}/>
+        <Route exact path='/' Component={ Homepage }/>
+        <Route exact path='/login' element={<Registrar/>}/>
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App; 

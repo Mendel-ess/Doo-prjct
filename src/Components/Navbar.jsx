@@ -4,7 +4,7 @@ export default function Navbar() {
         <nav>
             <ul>
                 <li><Link to="/">Homepage</Link></li>
-                <li><Link to="/registrar">Registrar</Link></li>
+                <li><Link to="/login">Registrar</Link></li>
             </ul>
         </nav>
     )
