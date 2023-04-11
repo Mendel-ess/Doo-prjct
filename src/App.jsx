@@ -6,7 +6,6 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
       <Routes>
         <Route exact path='/' Component={ Homepage }/>
         <Route exact path='/login' element={<Registrar/>}/>

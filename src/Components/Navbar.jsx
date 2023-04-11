@@ -7,5 +7,6 @@ export default function Navbar() {
                 <li><Link to="/login">Registrar</Link></li>
             </ul>
         </nav>
+        
     )
 }
