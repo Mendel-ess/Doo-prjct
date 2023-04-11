@@ -1,14 +1,12 @@
 import { Routes, Route} from 'react-router-dom';
 import Homepage from './Components/Homepage'
+import './App.scss'
 
 function App() {
 
   return (
     <div className="App">
-      <Routes>
-        <Route exact path='/' Component={ Homepage }/>
-        <Route exact path='/login' element={<Registrar/>}/>
-      </Routes>
+      APP 
     </div>
   );
 }
